@@ -3,15 +3,24 @@ import './Details.css';
 
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import { dispatchPatchTask, dispatchCompleteTask } from '../../services/task_service';
+import { dispatchGetTasks, dispatchPatchTask, dispatchCompleteTask } from '../../services/task_service';
 
 class Details extends Component {
+  componentDidMount() {
+    dispatchGetTasks();
+  }
+
+  componentWillReceiveProps(nextProps) {
+    const { title, description } = nextProps.task;
+    this.setState({ title, description });
+  }
+
   constructor(props) {
     super(props);
     this.state = {
-      title: props.task.title,
-      description: props.task.description
-    }
+      title: props.task ? props.task.title : '',
+      description: props.task ? props.task.description : ''
+    } 
 
     this.save = this.save.bind( this );
     this.cancel = this.cancel.bind( this );
