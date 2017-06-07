@@ -1,6 +1,6 @@
 # React Assessments
 
-In the following assessments, we will break down the process of building a website that sells cars. We'll begin by using just `create-react-app` and `React` to create the outline of the homepage. We'll then add `Redux` to the project for state management and finally add `axios` and `react-router-dom` so we can hit an API and have multiple routes.
+In the following assessments, we will break down the process of building a to-do list. We'll begin by using just `create-react-app` and `React` to create the outline of the homepage. We'll then add `Redux` to the project for state management and finally add `axios` and `react-router-dom` so we can hit an API and have multiple routes.
 
 ## Assessment 1
 
