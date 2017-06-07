@@ -6,7 +6,7 @@ In the following assessments, we will break down the process of building a to-do
 
 ### Summary
 
-In this assessment we will create the basic outline of the homepage.
+In this assessment we will create the basic outline of the main page.
 
 <b> Insert pictures/giphies here for reference </b>
 
@@ -14,7 +14,7 @@ In this assessment we will create the basic outline of the homepage.
 
 ### Summary
 
-In this assessment, we will add `Redux` into the project.
+In this assessment, we will add `Redux` into the project. We'll use redux to keep track of tasks, add new tasks, and delete tasks. 
 
 <b> Insert pictures/giphies here for reference </b>
 
@@ -22,6 +22,12 @@ In this assessment, we will add `Redux` into the project.
 
 ### Summary
 
-In this assessment, we will add `axios` and `react-router-dom` to the project.
+In this assessment, we will add `axios`, `redux-promise-middleware`, and `react-router-dom` to the project. We are going to refactor `assessment 2` to hit an API instead for tasks. We are also going to create a `details` route that will show more details about a task. 
+
+### API Documentation
+
+The API url: `api url goes here`.
+
+GET - Returns an array of all tasks.
 
 <b> Insert pictures/giphies here for reference </b>
