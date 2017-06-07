@@ -24,10 +24,18 @@ In this assessment, we will add `Redux` into the project. We are going to refact
 
 In this assessment, we will add `axios`, `redux-promise-middleware`, and `react-router-dom` to the project. We are going to refactor `assessment 2` to hit an API instead for managing tasks. We are also going to create a `details` route that will show more details about a task. 
 
-### API Documentation
+<details>
+
+<summary> API Documentation </summary>
+
+<br />
 
 The API url: `api url goes here`.
 
 GET - Returns an array of all tasks.
+
+</details>
+
+<br />
 
 <b> Insert pictures/giphies here for reference </b>
