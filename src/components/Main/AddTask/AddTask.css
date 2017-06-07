@@ -1,0 +1,24 @@
+#AddTask__container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#AddTask__input {
+  font-size: 20px;
+  padding: 5px;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid black;
+  user-select: none;
+  outline: none;
+}
+
+#AddTask__btn {
+  margin-left: 15px;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  background: black;
+  width: 60px;
+}

@@ -1,0 +1,12 @@
+#List__container {
+  padding: 20px;
+  height: 535px;
+  background-color: #f2f2f2;
+  overflow: auto;
+}
+
+#List__tasksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

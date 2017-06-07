@@ -1,0 +1,15 @@
+#Main__container {
+  border: 1px solid black;
+  width: 1000px;
+  height: 700px;
+}
+
+#Main__header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
