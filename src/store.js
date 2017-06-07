@@ -1,4 +1,6 @@
-import { createStore } from "redux";
+import { createStore, applyMiddleware } from "redux";
 import tasks from './ducks/tasks';
 
-export default createStore( tasks );
+import promiseMiddleware from "redux-promise-middleware";
+
+export default createStore( tasks, undefined, applyMiddleware( promiseMiddleware() ) );

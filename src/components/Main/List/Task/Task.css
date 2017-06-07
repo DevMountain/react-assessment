@@ -1,5 +1,6 @@
-#Task__container {
+.Task__container {
   background-color: white;
+  color: black;
   margin-bottom: 10px;
   border-radius: 2px;
   height: 40px;
@@ -10,6 +11,11 @@
   position: relative;
 }
 
+.complete {
+  background-color: green;
+  color: white;
+}
+
 #Task__container:hover {
   cursor: pointer;
 }
@@ -17,4 +23,9 @@
 #Task__delete {
   position: absolute;
   right: 15px;
+}
+
+#Task__link {
+  color: black;
+  text-decoration: none;
 }

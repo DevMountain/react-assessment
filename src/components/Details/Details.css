@@ -1,0 +1,63 @@
+#Details__container {
+  padding: 20px;
+  width: 960px;
+  height: 610px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Details__editContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  width: 60%;
+  height: 500px;
+  background: white;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 5px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#Details__link {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.Details__input {
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  font-size: 25px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.Details__btn {
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  font-size: 17px;
+  width: 100px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+#Details__saveBtn {
+  color: white;
+  background: skyblue;
+}
+
+#Details__cancelBtn {
+
+}
+
+#Details__completeBtn {
+  background-color: lightgreen;
+}
