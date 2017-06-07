@@ -14,7 +14,7 @@ In this assessment we will create the basic outline of the main page.
 
 ### Summary
 
-In this assessment, we will add `Redux` into the project. We aare going to refactor `assessment 1` to use redux to keep track of tasks, add new tasks, and delete tasks. 
+In this assessment, we will add `Redux` into the project. We are going to refactor `assessment 1` to use redux to keep track of tasks, add new tasks, and delete tasks. 
 
 <b> Insert pictures/giphies here for reference </b>
 
@@ -22,7 +22,7 @@ In this assessment, we will add `Redux` into the project. We aare going to refac
 
 ### Summary
 
-In this assessment, we will add `axios`, `redux-promise-middleware`, and `react-router-dom` to the project. We are going to refactor `assessment 2` to hit an API instead. We are also going to create a `details` route that will show more details about a task. 
+In this assessment, we will add `axios`, `redux-promise-middleware`, and `react-router-dom` to the project. We are going to refactor `assessment 2` to hit an API instead for managing tasks. We are also going to create a `details` route that will show more details about a task. 
 
 ### API Documentation
 
