@@ -1,6 +1,6 @@
 .Task__container {
   background-color: white;
-  color: black;
+  color: black !important; 
   margin-bottom: 10px;
   border-radius: 2px;
   height: 40px;
@@ -13,7 +13,6 @@
 
 .complete {
   background-color: green;
-  color: white;
 }
 
 #Task__container:hover {

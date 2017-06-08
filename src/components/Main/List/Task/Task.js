@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 
 export default function Task( { id, title, completed } ) {
   return (
-    <Link id="Task__link" to={ `details/${id}` }>
       <div className={"Task__container " + (completed ? 'complete' : '') }>
-        <span> { title } </span>
+        <Link id="Task__link" to={ `details/${id}` }>
+          <span> { title } </span>
+        </Link>
         <span id="Task__delete" onClick={ () => dispatchDeleteTask( id ) }> x </span>
       </div>
-    </Link>
   )
 }
