@@ -116,3 +116,6 @@ In this assessment, we will use the repository you made in assessment two and mo
 * Use `redux-promise-middleware`, `Redux`, and `axios` to create, fetch, update, complete, and delete tasks.
 * Create a service file that components will use to make API calls:
   * The service file should dispatch actions the store with the `promise` made from `axios`.
+* Use `react-router-dom` to create a new route to a detailed view of a task:
+  * This route should use route parameters to know which task it is working with.
+  * This route should be able to refresh and fetch the task information if needed.
