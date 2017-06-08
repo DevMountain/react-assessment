@@ -26,6 +26,11 @@
   cursor: pointer;
 }
 
+#Task__complete {
+  position: absolute;
+  right: 80px;
+}
+
 .Task__link {
   color: black;
   text-decoration: none;

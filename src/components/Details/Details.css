@@ -58,6 +58,11 @@
 
 }
 
+#Details__deleteBtn {
+  color: white;
+  background-color: red;
+}
+
 #Details__completeBtn {
   background-color: lightgreen;
 }
