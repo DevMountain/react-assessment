@@ -9,8 +9,20 @@ In the following assessments, we will break down the process of building a to-do
 In this assessment, we will use `create-react-app` to begin our to-do list application. To complete this assessment your application must be able to:
 
 * Keep track of tasks using `state`.
-* Use a map to list out all `tasks` on state.
-* 
+* Use a map to list out all `tasks` on `state`.
+* Be able to delete `tasks`.
+* Be able to create a new task after deleting previous tasks.
+
+<details>
+
+<summary> <code> CSS </code> </summary>
+
+```css
+
+```
+
+</details>
+
 
 <b> Insert pictures/giphies here for reference </b>
 
