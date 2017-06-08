@@ -11,6 +11,8 @@ In the following assessments, we will break down the process of building a to-do
 * A user must be able to delete a task.
 * A user must be able to complete a task.
 
+<br />
+
 * <b> Technical Requirements </b>
 * Components
 * State
