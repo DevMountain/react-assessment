@@ -118,4 +118,4 @@ In this assessment, we will use the repository you made in assessment two and mo
   * The service file should dispatch actions the store with the `promise` made from `axios`.
 * Use `react-router-dom` to create a new route to a detailed view of a task:
   * This route should use route parameters to know which task it is working with.
-  * This route should be able to refresh and fetch the task information if needed.
+  * This route should be able to handle refreshing ( data should not be lost on refresh ).
