@@ -8,6 +8,22 @@ For assessment 1 and 2 you will be responsible for all functionality besides upd
 
 In all three assessments you will not be graded on CSS. We only ask that you make the display of information clear so that it can be graded properly. The screenshots above or only to help with visualization.
 
+Assessment 3 will use an API to manage tasks. Here is the documentation for that API:
+
+<details>
+
+<summary> API Documentation </summary>
+
+<br />
+
+The API url: `api url goes here`.
+
+GET - Returns an array of all tasks.
+
+</details>
+
+<br />
+
 ## Assessment 1
 
 ### Summary
@@ -74,20 +90,7 @@ In this assessment, we will use the repository you made in assessment two and mo
 
 ### Technical Requirements
 
-
-
-<details>
-
-<summary> API Documentation </summary>
-
-<br />
-
-The API url: `api url goes here`.
-
-GET - Returns an array of all tasks.
-
-</details>
-
-<br />
-
-<b> Insert pictures/giphies here for reference </b>
+* Use the API to manage tasks.
+* Use `redux-promise-middleware`, `Redux`, and `axios` to create, fetch, update, complete, and delete tasks.
+* Create a service file that components will use to make API calls:
+  * The service file should dispatch actions the store with the `promise` made from `axios`.
