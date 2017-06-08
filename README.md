@@ -6,7 +6,11 @@ In the following assessments, we will break down the process of building a to-do
 
 ### Summary
 
-In this assessment we will create the basic outline of the main page. 
+In this assessment, we will use `create-react-app` to begin our to-do list application. To complete this assessment your application must be able to:
+
+* Keep track of tasks using `state`.
+* Use a map to list out all `tasks` on state.
+* 
 
 <b> Insert pictures/giphies here for reference </b>
 

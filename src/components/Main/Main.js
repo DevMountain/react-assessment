@@ -8,7 +8,8 @@ export default class Main extends Component {
   constructor() {
     super();
     this.state = {
-      tasks: []
+      tasks: [],
+      taskID: 0
     }
 
     this.addTask = this.addTask.bind( this );
@@ -16,14 +17,13 @@ export default class Main extends Component {
   }
 
   addTask( title ) {
-    const { tasks } = this.state;
-    this.setState({ tasks: [ ...tasks, { id: tasks.length, title } ] });
+    const { tasks, taskID } = this.state;
+    this.setState({ tasks: [ ...tasks, { id: taskID, title } ], taskID: taskID + 1 });
   }
 
   removeTask( id ) {
     const { tasks } = this.state;
-    var newTasks = tasks.filter( task => task.id !== id ).map( (task, index) => Object.assign({}, task, { id: index }) );
-    this.setState({ tasks: newTasks });
+    this.setState({ tasks: tasks.filter( task => task.id !== id ) });
   }
 
   render() {
