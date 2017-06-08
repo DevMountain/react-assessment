@@ -16,7 +16,7 @@ In all three assessments you will not be graded on CSS. We only ask that you mak
 
 ### Summary
 
-In this assessment, you will create the to-do list using `create-react-app` and you will create all the logic needed to create, complete, and delete tasks.
+In this assessment, you will create the to-do list using `create-react-app` and you will create all the logic needed to create, complete, and delete tasks. All the functionality should be available to the user on the same view.
 
 ### Functionality
 
@@ -24,6 +24,10 @@ In this assessment, you will create the to-do list using `create-react-app` and 
 * A user must be able to delete a task.
 * A user must be able to complete a task.
   * A user must be able to see a visual representation of a completed task.
+  * The complete button should be disabled if the task is completed.
+* A user must be able to see a list of all their tasks.
+* The `add-task` input field must clear after adding a task.
+* After adding a new task, the task must be added to the list of visible `tasks`.
 
 ### Technical Requirements
 
@@ -36,15 +40,20 @@ In this assessment, you will create the to-do list using `create-react-app` and 
 * In-line styles ( at least 1 )
 * Conditional Classes
 
-<b> Insert pictures/giphies here for reference </b>
-
 ## Assessment 2
 
 ### Summary
 
-In this assessment, we will add `Redux` into the project. We are going to refactor `assessment 1` to use redux to keep track of tasks, add new tasks, and delete tasks. 
+In this assessment, we will use the repository you made in assessment one and modify the logic. 
 
-<b> Insert pictures/giphies here for reference </b>
+### Functionality
+
+* No new functionality is added in this assessment. It should function the same as assessment 1.
+
+### Technical Requirements
+
+* Keep track of tasks using redux.
+* Create, Complete, and Delete tasks using action creators with redux.
 
 ## Assessment 3
 
