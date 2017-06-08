@@ -1,4 +1,4 @@
-#Task__container {
+.Task__container {
   background-color: white;
   margin-bottom: 10px;
   border-radius: 2px;
@@ -17,4 +17,14 @@
 #Task__delete {
   position: absolute;
   right: 15px;
+}
+
+#Task__complete {
+  position: absolute;
+  right: 80px;
+}
+
+.completed {
+  background-color: green;
+  color: white;
 }
