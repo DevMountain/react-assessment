@@ -18,7 +18,26 @@ Assessment 3 will use an API to manage tasks. Here is the documentation for that
 
 The API url: `api url goes here`.
 
-GET - Returns an array of all tasks.
+* GET - `api url goes here`
+  * Returns an array of all tasks.
+* POST - `api url goes here`
+  * Creates a new task.
+  * Requires a `title` property on the request body that equals a string.
+  * Returns an array of all tasks.
+* PATCH - `api url goes here/:id`
+  * Updates a task.
+  * Requires an id parameter of the task you want to patch.
+  * Requires a request body with a property or properties you want to update.
+    * Valid properties: `title` - string, `description` - string, `completed` - boolean
+  * Returns an array of all tasks.
+* DELETE - `api url goes here/:id`
+  * Deletes a task.
+  * Requires an id parameter of the task you want to delete.
+  * Returns an array of all tasks.
+* PUT - `api url goes here/:id`
+  * Marks a task as completed.
+  * Requires an id parameter of the task you want to complete.
+  * Returns an array of all tasks.
 
 </details>
 
