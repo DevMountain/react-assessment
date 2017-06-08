@@ -10,8 +10,8 @@ In this assessment, we will use `create-react-app` to begin our to-do list appli
 
 * Keep track of tasks using `state`.
 * Use a map to list out all `tasks` on `state`.
-* Be able to delete `tasks`.
-* Be able to create a new task after deleting previous tasks.
+* Be able to delete `tasks` from `state`.
+* Be able to create a new `task` after deleting previous `tasks`.
 
 <details>
 
