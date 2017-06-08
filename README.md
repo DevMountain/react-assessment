@@ -1,10 +1,10 @@
 # React Assessments
 
-<img src="https://github.com/DevMountain/react-assessment/blob/master/readme-assets/1.png" />
+<img src="https://github.com/DevMountain/react-assessment/blob/master/readme-assets/1-1.png" />
 
 <br />
 
-<img src="https://github.com/DevMountain/react-assessment/blob/master/readme-assets/2.png" />
+<img src="https://github.com/DevMountain/react-assessment/blob/master/readme-assets/2-1.png" />
 
 In the following assessments, we will break down the process of building a to-do list. The to-do list will be capable of creating tasks, deleting tasks, updating tasks, and completing tasks. 
 
