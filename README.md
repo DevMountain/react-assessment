@@ -4,7 +4,9 @@
 
 In the following assessments, we will break down the process of building a to-do list. The to-do list will be capable of creating tasks, deleting tasks, updating tasks, and completing tasks. 
 
-For assessment 1 and 2 you will be responsible for all functionality besides updating. For assessment 3 you will be responsible for all functionality.
+A task should be an object with the following properties: `id`, `title`, `description`, and `completed`.
+
+For assessment 1 and 2 you will be responsible for all functionality besides updating. Also you will only need to worry about `id`, `title` and `completed`. For assessment 3 you will be responsible for all functionality and all properties of a task ( `id`, `title`, `description`, `completed` ).
 
 In all three assessments you will not be graded on CSS. We only ask that you make the display of information clear so that it can be graded properly. The screenshots above or only to help with visualization.
 
