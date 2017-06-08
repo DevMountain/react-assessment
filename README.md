@@ -1,10 +1,6 @@
 # React Assessments
 
-<img src="https://github.com/DevMountain/react-assessment/blob/master/readme-assets/1-1.png" />
-
-<br />
-
-<img src="https://github.com/DevMountain/react-assessment/blob/master/readme-assets/2-1.png" />
+<img src="https://github.com/DevMountain/react-assessment/blob/master/readme-assets/1-3.png" />
 
 In the following assessments, we will break down the process of building a to-do list. The to-do list will be capable of creating tasks, deleting tasks, updating tasks, and completing tasks. 
 
@@ -59,7 +55,26 @@ In this assessment, we will use the repository you made in assessment one and mo
 
 ### Summary
 
-In this assessment, we will add `axios`, `redux-promise-middleware`, and `react-router-dom` to the project. We are going to refactor `assessment 2` to hit an API instead for managing tasks. We are also going to create a `details` route that will show more details about a task. 
+In this assessment, we will use the repository you made in assessment two and modify the logic.
+
+### Functionality
+
+* A user should be able to click on a task to be taken to a detailed view of that task:
+  * A user should be able to modify the title of a task.
+  * A user should be able to add/modify the description of a task.
+  * A user should be able to save changes to a title/description:
+    * This should navigate the user to the main list of tasks after saving changes.
+  * A user should be able to cancel text changes:
+    * This should set the input fields' values back to their original value.
+  * A user should be able to delete a task:
+    * This should navigate the user back to the main list of tasks after deleting a task.
+  * A user should be able to complete a task:
+    * This should navigate a user back to the main list of tasks after completeing a task.
+
+
+### Technical Requirements
+
+
 
 <details>
 
