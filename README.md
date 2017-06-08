@@ -1,17 +1,23 @@
 # React Assessments
 
-In the following assessments, we will break down the process of building a to-do list. We'll begin by using `create-react-app`, `React`, and `state` and `props` to create the outline and the functionality of the main page. We'll then add `Redux` to the project for state management and finally add `axios` and `react-router-dom` so we can hit an API and have multiple routes.
+In the following assessments, we will break down the process of building a to-do list. The to-do list will be capable of creating tasks, deleting tasks, updating tasks, and completing tasks. 
 
 ## Assessment 1
 
 ### Summary
 
-In this assessment, we will use `create-react-app` to begin our to-do list application. To complete this assessment your application must be able to:
+* <b> Functionality </b>
+* A user must be able to create a task.
+* A user must be able to delete a task.
+* A user must be able to complete a task.
 
-* Keep track of tasks using `state`.
-* Use a map to list out all `tasks` on `state`.
-* Be able to delete `tasks` from `state`.
-* Be able to create a new `task` after deleting previous `tasks`.
+* <b> Technical Requirements </b>
+* Components
+* State
+* Props
+* <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map?v=example">Map</a> 
+
+
 
 <details>
 
