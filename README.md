@@ -6,7 +6,7 @@ In the following assessments, we will break down the process of building a to-do
 
 ### Summary
 
-* <b><u> Functionality </u></b>
+* __**Functionality**__
 * A user must be able to create a task.
 * A user must be able to delete a task.
 * A user must be able to complete a task.
