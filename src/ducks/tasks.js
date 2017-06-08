@@ -1,5 +1,6 @@
 const initialState = {
-  tasks: []
+  tasks: [],
+  taskID: 0
 }
 
 const ADD_TASK = "ADD_TASK";
@@ -9,11 +10,13 @@ export default function tasks( state = initialState, action ) {
   switch( action.type ) {
     case ADD_TASK:
       return {
-        tasks: [ ...state.tasks, { id: state.tasks.length, title: action.payload, description: "", completed: false } ]
+        tasks: [ ...state.tasks, { id: state.taskID, title: action.payload, description: "", completed: false } ],
+        taskID: state.taskID + 1
       }
     case REMOVE_TASK:
       return {
-        tasks: state.tasks.filter( task => task.id !== action.payload )
+        tasks: state.tasks.filter( task => task.id !== action.payload ),
+        taskID: state.taskID
       }
     default: return state;
   }
