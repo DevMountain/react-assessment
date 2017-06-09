@@ -7,7 +7,7 @@ import { getTasks, patchTask, completeTask, deleteTask } from "../../ducks/tasks
 
 class Details extends Component {
   componentDidMount() {
-    getTasks();
+    this.props.getTasks();
   }
 
   componentWillReceiveProps(nextProps) {
@@ -34,8 +34,9 @@ class Details extends Component {
 
   save() {
     const { title, description } = this.state;
+    const { patchTask, history } = this.props;
     patchTask( this.props.id, { title, description } );
-    this.props.history.push('/');
+    history.push('/');
   }
 
   cancel() {
@@ -44,13 +45,13 @@ class Details extends Component {
   }
 
   complete() {
-    const { id, history } = this.props;
+    const { id, history, completeTask } = this.props;
     completeTask( id );
     history.push('/');
   }
 
   delete() {
-    const { id, history } = this.props;
+    const { id, history, deleteTask } = this.props;
     deleteTask( id );
     history.push('/');
   }

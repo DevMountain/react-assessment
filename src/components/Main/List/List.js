@@ -13,6 +13,7 @@ class List extends Component {
 
   render() {
     const { tasks } = this.props;
+    console.log("NEW TASKS:", tasks);
 
     const Tasks = tasks.map( task => (
       <Task key={ task.id } id={ task.id } title={ task.title } completed={ task.completed } />
