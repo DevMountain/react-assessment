@@ -54,6 +54,7 @@ In this assessment, you will create the to-do list using `create-react-app` and 
 ### Functionality
 
 * A user must be able to create a task.
+  * A user must not be able to create a task with no title.
 * A user must be able to delete a task.
 * A user must be able to complete a task.
   * A user must be able to see a visual representation of a completed task.
