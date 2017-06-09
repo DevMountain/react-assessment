@@ -5,7 +5,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(cors());
-app.use('/api/tasks/', require('./router'));
+app.use('/api/tasks/', require('./task_router'));
 
 const port = 3005;
-app.listen(port, () => { console.log(`Server listening on port ${port}`) });
+app.listen(port, () => console.log(`Server listening on port ${port}`) );
