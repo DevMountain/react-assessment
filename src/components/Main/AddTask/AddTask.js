@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import './AddTask.css';
 
 import { connect } from "react-redux";
-import { dispatchAddTask } from "../../../services/task_service";
+import { addTask } from '../../../ducks/tasks';
 
 class AddTask extends Component {
   constructor() {
@@ -21,8 +21,9 @@ class AddTask extends Component {
 
   add() {
     const { title } = this.state;
+    const { addTask } = this.props;
     if ( title.length !== 0 ) {
-      dispatchAddTask( title );
+      addTask( title );
     }
   }
 
@@ -37,4 +38,4 @@ class AddTask extends Component {
   }
 }
 
-export default connect( state => state )( AddTask );
+export default connect( state => state, { addTask } )( AddTask );

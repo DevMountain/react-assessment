@@ -3,11 +3,11 @@ import './Details.css';
 
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import { dispatchGetTasks, dispatchPatchTask, dispatchCompleteTask, dispatchDeleteTask } from '../../services/task_service';
+import { getTasks, patchTask, completeTask, deleteTask } from "../../ducks/tasks";
 
 class Details extends Component {
   componentDidMount() {
-    dispatchGetTasks();
+    getTasks();
   }
 
   componentWillReceiveProps(nextProps) {
@@ -34,7 +34,7 @@ class Details extends Component {
 
   save() {
     const { title, description } = this.state;
-    dispatchPatchTask( this.props.id, { title, description } );
+    patchTask( this.props.id, { title, description } );
     this.props.history.push('/');
   }
 
@@ -45,13 +45,13 @@ class Details extends Component {
 
   complete() {
     const { id, history } = this.props;
-    dispatchCompleteTask( id );
+    completeTask( id );
     history.push('/');
   }
 
   delete() {
     const { id, history } = this.props;
-    dispatchDeleteTask( id );
+    deleteTask( id );
     history.push('/');
   }
 
@@ -90,4 +90,4 @@ function mapStateToProps( state, { match }  ) {
   }
 }
 
-export default connect( mapStateToProps )( Details );
+export default connect( mapStateToProps, { getTasks, patchTask, completeTask, deleteTask } )( Details );

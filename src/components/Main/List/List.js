@@ -4,11 +4,11 @@ import './List.css';
 import Task from './Task/Task';
 import { connect } from 'react-redux';
 
-import { dispatchGetTasks } from '../../../services/task_service';
+import { getTasks } from '../../../ducks/tasks';
 
 class List extends Component {
   componentDidMount() {
-    dispatchGetTasks();
+    this.props.getTasks();
   }
 
   render() {
@@ -34,4 +34,4 @@ function mapStateToProps( state ) {
   }
 }
 
-export default connect( mapStateToProps )( List );
+export default connect( mapStateToProps, { getTasks } )( List );
