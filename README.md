@@ -14,7 +14,7 @@ Assessment 3 will use an API to manage tasks. Here is the documentation for that
 
 <details>
 
-<summary> API Documentation </summary>
+<summary> ## API Documentation </summary>
 
 <br />
 
@@ -92,6 +92,8 @@ In this assessment, we will use the repository you made in assessment one and mo
 ### Summary
 
 In this assessment, we will use the repository you made in assessment two and modify the logic.
+
+You will find the API documation in the first section of this document.
 
 ### Functionality
 
