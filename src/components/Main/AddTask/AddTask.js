@@ -24,6 +24,7 @@ class AddTask extends Component {
     const { addTask } = this.props;
     if ( title.length !== 0 ) {
       addTask( title );
+      this.setState({ title: '' });
     }
   }
 

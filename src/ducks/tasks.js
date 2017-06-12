@@ -1,6 +1,6 @@
 import axios from 'axios';
 const port = 3005;
-const apiURL = `http://localhost:${port}/api/tasks/`;
+const apiURL = `https://practiceapi.devmountain.com/api/tasks/`;
 
 const initialState = {
   tasks: []
