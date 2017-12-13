@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { getAllTasks, addTask, resetWizard, deleteTask, markCompleted } from './../../ducks/reducer';
 import { connect } from 'react-redux';
 import './List.css';
-import logo from '../../logo.svg';
+import Check from '../Check/Check';
 
 class List extends Component {
   constructor(props) {
@@ -40,7 +40,6 @@ class List extends Component {
       taskTitle: ''
     })
   }
-  
 
   render() {
     const { taskTitle } = this.state;
@@ -50,15 +49,13 @@ class List extends Component {
         <div key={i}>
           <div className='item'>
             <div className='start'>
-              <img src={logo} alt="" />
+              <Check checkedOff={tasks[i].completed} />
               <p>{task.title}</p>
             </div>
             <div className='end'>
               <button onClick={() => {
                 if (tasks[i].completed === false) {
                   this.props.markCompleted(tasks[i].id)
-                } else {
-                  alert('This task has already been completed.');
                 }
               }}>Complete</button>
               <button onClick={() => this.props.deleteTask(tasks[i].id)}>X</button>
