@@ -1,0 +1,68 @@
+.list {
+    padding: 13px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 7px;
+    border: 1px solid gray;
+    height: 30vh;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 7px;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+input {
+    width: 73vw;
+    margin-left: 5px;
+    border-top: none;
+    border-bottom-color: black;
+    border-right: none;
+    border-left: none;
+}
+
+.add {
+    width: 33vw;
+    margin-left: 5px;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    height: 5vh;
+    font-size: .75em;
+    color: white;
+}
+
+.end {
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+button {
+    margin-right: 4px;
+}
+
+img {
+    height: 4vh;
+}
